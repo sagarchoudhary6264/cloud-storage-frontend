@@ -1,16 +1,40 @@
-# React + Vite
+# Cloud Storage Client (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Related Repository
+- **Backend API:** [Spring Boot Cloud Storage Backend](https://github.com/sagarchoudhary6264/cloud-storage-backend)
 
-Currently, two official plugins are available:
+A modern, responsive React web interface for the Cloud Storage application built with Vite and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Authentication:** User registration and login with JWT token persistence.
+- **Storage Metrics:** Real-time visual progress bar tracking per-user 20 MB storage quota.
+- **File Management:** Upload, list, preview metadata, and download files directly from the browser.
+- **Public Link Sharing:** Instant generation and revocation of public download URLs with copy-to-clipboard functionality.
+- **Permanent Purge:** Direct file deletion synchronized with backend disk storage.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Framework:** React 18 / 19
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **API Communication:** Native Fetch API with Bearer JWT Authorization
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
+
+### Installation
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd cloud-storage-frontend
